@@ -104,7 +104,7 @@ section {
 .moeda {
     font-size: 14px;
     font-weight: 400;
-    color: #777777;
+    color: #777778;
     line-height: 18px;
     text-align: center;
 }
@@ -112,7 +112,7 @@ section {
 .valor,
 .currency-value,
 .currency-value-to-convert {
-    color: #555555;
+    color: #555557;
     font-size: 20px;
     font-weight: 700;
 }
