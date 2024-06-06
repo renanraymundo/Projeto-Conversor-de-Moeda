@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #10c5f8c9;
+}
+
+.topo {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px auto;
+}
+
+main {
+    width: 375px;
+    height: 712px;
+    border-radius: 20px;
+    margin: 0 auto 60px;
+    padding: 44px 24px 23px;
+    background-color: #F4F4F4;
+}
+
+label {
+    color: #777777;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+select,
+input {
+    background: #FFFFFF;
+    width: 100%;
+    height: 48px;
+    gap: 0px;
+    Border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #777777;
+
+}
+
+button {
+    background: #10c5f8c9;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFFFFF;
+    border: none;
+    Height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+
+    margin-top: 36px;
+    border-radius: 20px;
+    border: 1px solid #10c5f8c9;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brasil {
+    width: 44px;
+    height: 44px;
+    margin: auto;
+    display: block;
+}
+
+.currency-img {
+    Width: 44px;
+    Height: 44px;
+
+}
+
+.img-euro {
+    Width: 44px;
+    Height: 44px;
+}
+
+.moeda {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 18px;
+    text-align: center;
+}
+
+.valor,
+.currency-value,
+.currency-value-to-convert {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.arrow-img {
+    Width: 35px;
+    Height: 49.94px;
+    margin: 15px 0 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
